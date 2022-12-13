@@ -1,0 +1,11 @@
+ap=[]
+n=int(input('enter no of districts:'))
+ap.append('srikakulam')
+ap.append('vskp')
+ap.insert(0,'amalapuram')
+ap.insert(1,'kakinada')
+print(ap)
+
+output:
+enter no of districts: 4
+['amalapuram', 'kakinada', 'srikakulam', 'vskp']
