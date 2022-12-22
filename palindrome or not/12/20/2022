@@ -1,0 +1,13 @@
+#Write a program to print given number is palindrome or not?
+
+num = input("Enter a number:")
+if num == num[::-1]:
+    print("\nYes, its a palindrome")
+else:
+    print("\nNo, its not a palindrome")
+OUTPUT:
+Enter a number: 1221
+Yes, its a palindrome
+
+Enter a number:427
+Yes, its not a palindrome
