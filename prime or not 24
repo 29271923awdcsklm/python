@@ -1,0 +1,19 @@
+# write a program given number is prime or not 
+num=int(input ())
+if num > 1:
+  
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is not a prime number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+   
+else:
+   print(num,"is not a prime number")
+
+Output
+34
+34 is not a prime number
+2 times 17 is 34
