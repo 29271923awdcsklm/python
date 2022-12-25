@@ -1,0 +1,5 @@
+numbers = [5,11,13,7,3,17]
+numbers.sort()
+print(numbers)
+Output:
+[3, 5, 7, 11, 13, 17]
