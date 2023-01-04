@@ -1,0 +1,35 @@
+n=int(input())
+A=[]
+s=0
+for i in range(0,n):
+     l=[]
+     for j in range(0,n):
+         x=int(input('enter the no:'))
+         l.append(x)
+     A.append(l)
+print(A)
+c=n
+for i in range(0,n):
+   s=0
+   for j in range(0,n):
+      s=s+A[i][j]
+   if s==2:
+    c=c+1
+if c==n:
+  print("it is coder target matrix")
+else:
+  print("it is not a coder target matrix")
+
+OUTPUT:
+3
+enter the no:1
+enter the no:0
+enter the no:1
+enter the no:0
+enter the no:1
+enter the no:1
+enter the no:1
+enter the no:1
+enter the no:0
+[[1, 0, 1], [0, 1, 1], [1, 1, 0]]
+it is coder target matrix
