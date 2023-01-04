@@ -1,0 +1,29 @@
+n=int(input())
+A=[]
+sum=0
+for i in range(0,n):
+     l=[]
+     for j in range(0,n):
+         x=int(input('enter the no:'))
+         l.append(x)
+     A.append(l)
+z=[]
+for i in range(n):
+   for j in range(n):
+       if i==j:
+         z.append(A[i][j])
+       elif i+j==n-1:
+         z.append(A[i][j])
+print(z)   
+print("max:",max(z))
+
+
+
+OUTPUT:
+2
+enter the no:4
+enter the no:8
+enter the no:9
+enter the no:3
+[4, 8, 9, 3]
+max: 9
