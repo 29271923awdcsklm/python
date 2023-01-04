@@ -1,0 +1,31 @@
+n=int(input())
+A=[]
+s=0
+for i in range(0,n):
+     l=[]
+     for j in range(0,n):
+         x=int(input('enter the no:'))
+         l.append(x)
+     A.append(l)
+print(A)
+for i in range(n):
+   for j in range(n):
+       if i==j:
+         s=s+A[i][j]
+       elif i+j==n-1:
+         s=s+A[i][j]
+print(s)
+
+OUTPUT:
+3
+enter the no:2
+enter the no:6
+enter the no:5
+enter the no:5
+enter the no:4
+enter the no:7
+enter the no:5
+enter the no:6
+enter the no:8
+[[2, 6, 5], [5, 4, 7], [5, 6, 8]]
+24
